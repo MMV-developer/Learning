@@ -1,0 +1,309 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+/* ----------------отступы--------------- */
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  font-family: ;
+}
+.wrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+/* ----------------технические блоки--------------- */
+
+/* -----------------------------form---------------------------- */
+/* 
+textarea {
+  border: 1px solid #000;
+  text-shadow: 1px 1px 1px black;
+  text-transform: ;
+  text-indent: 10px;
+  letter-spacing: 5px;
+  line-height: 10px;
+  word-spacing: 5px;
+} */
+
+/* -----------------------------position---------------------------- */
+/* 
+.one__div {
+  width: 600px;
+  height: 60px;
+}
+.one__span {
+  display: block;
+}
+.text__shadow {
+  color: black;
+  text-shadow: 1px 1px 10px black;
+}
+.two__class {
+  display: inline-block;
+  margin: 32px 0 0 0;
+  height: 85px;
+}
+.three__class {
+  width: 240px;
+  display: inline-block;
+}
+.three__p {
+  display: inline-block;
+  width: 220px;
+}
+.two__span {
+  display: block;
+  margin-top: 36px;
+  min-width: 501px;
+  margin-left: 20px;
+}
+.two__a {
+  padding-left: 43px;
+  color: black;
+}
+.tree__span {
+  margin-top: 36px;
+  display: block;
+  width: 350px;
+  height: 110px;
+} */
+
+/* -----------------------------landing photo---------------------------- */
+/* 
+ body {
+  background-color: #e8e8e8;
+}
+.wrapper {
+  max-width: 1200px;
+  background: url(/img/svg.svg) no-repeat center;
+  margin: 0 auto;
+}
+.main {
+  padding-top: 168px;
+  color: inherit;
+}
+.container {
+  max-width: 850px;
+  margin: 0 auto;
+}
+.heading {
+  text-align: center;
+  text-transform: uppercase;
+  opacity: 0.5;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+.big__text {
+  text-align: center;
+  align-items: center;
+  padding: 27px 52px 86px 52px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 40px;
+  letter-spacing: 1px;
+}
+.title__img {
+}
+.img {
+  border: 15px solid white;
+}
+
+.text {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.title__text {
+  width: 750px;
+  font-size: 24px;
+  opacity: 0.5;
+  margin: 0 auto;
+  padding: 30px 0px 0px 0px;
+  line-height: 26px;
+  font-weight: 500;
+}
+._first {
+  padding: 107px 0px 0px 0px;
+}
+
+.nav {
+  padding-top: 30px;
+  width: 750px;
+  margin: 0 auto;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.nav li {
+  padding: 10px 40px;
+  background: url(/img/check.png) left 10px no-repeat;
+}
+
+.one {
+  text-shadow: 0px 0px 1px black;
+}
+.two {
+  color: #80b7b3;
+}
+
+.three {
+  opacity: 0.8;
+}
+
+.four {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+.full__button {
+  width: 200px;
+  height: 50px;
+  background: #80b7b3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  margin: 50px 0 100px;
+}
+.button__text {
+  color: #ffff;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-left: 15px;
+  opacity: 0.8;
+}
+.button__img img {
+  width: 50px;
+  height: 14px;
+  padding-right: 15px;
+}  */
+
+/* -----------------------------CSS псевдоклассы---------------------------- */
+/* 
+.wrapper {
+}
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.list {
+  margin-top: 132px;
+}
+.list__top {
+}
+.list__item-top {
+  padding: 12px 0px 12px 30px;
+  background: url(/img/check.png) left 10px no-repeat;
+}
+.list__item-top:nth-child(1) {
+  text-decoration: line-through;
+}
+.list__item-top:nth-child(3) {
+  opacity: .5;
+}
+.list__item-top:nth-child(4) {
+  text-transform: uppercase;
+}
+.list__bottom {
+  margin-top: 77px;
+}
+.list__item-bottom {
+  padding: 12px 0px 12px 30px;
+  background: url(/img/check.png) left 10px no-repeat;
+}
+.list__item-bottom:nth-child(2):hover{
+  color: tomato;
+  background: url(/img/red__check.png)left 10px no-repeat;
+}
+.button {
+  width: 200px;
+  height: 50px;
+  background: #80b7b3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  margin: 50px 0 100px;
+}
+.button__text {
+  display: block;
+  color: #ffff;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-left: 15px;
+  opacity: 0.8; 
+}
+.img__row  {
+  width: 50px;
+  height: 14px;
+  padding-right: 15px;
+}
+.button:hover {
+  background: #3B5956;
+}
+.button:active {
+  background: #818181;
+}
+.input {
+  margin-bottom: 50px;
+  
+}
+input {
+  border: 1px solid #818181;
+  border-radius: 5px;
+  width: 290px;
+  height: 50px;
+  padding-left: 10px;
+}
+.left {
+}
+.right {
+  margin-left: 80px;
+}
+.right:focus {
+  color: #0943f1;
+  box-shadow: 0px 0px 10px 5px #0943f1; 
+}
+*/
